@@ -2,6 +2,7 @@ import { createRouter,createWebHistory } from "vue-router";
 import LoginPage from "../components/Login.vue";
 import SignupPage from "../components/Signuppage.vue";
 import DashboardPage from "../components/Dashboard.vue";
+import PaymentPage from "../components/PaymentPage.vue"
 const routes=[
 
     {
@@ -20,6 +21,10 @@ const routes=[
     {
         path:"/dashboard",
         component:DashboardPage
+    },
+    {
+        path:"/payment",
+        component:PaymentPage
     }
   
 ]
